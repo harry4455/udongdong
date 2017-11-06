@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "455341475107",
+    "firebase_url": "https://startonc-86db3.firebaseio.com",
+    "project_id": "startonc-86db3",
+    "storage_bucket": "startonc-86db3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455341475107:android:e1fe575daf9ea1fe",
+        "android_client_info": {
+          "package_name": "com.example.jamleekim.startonc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455341475107-emd9aunbamfopv7ra7q4a6h51mvq8r6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jamleekim.startonc",
+            "certificate_hash": "cc32f8c9694816a18e9f069cacb76a2c47cc1241"
+          }
+        },
+        {
+          "client_id": "455341475107-qd09590bk4veo1og1qubm2ussr8bc6q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsvNeN_pwAWav0hVJnvOhYYWJeBx0DY1A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455341475107-qd09590bk4veo1og1qubm2ussr8bc6q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

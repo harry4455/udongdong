@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jamleekim.startonc.TeamJoinActivity">
+
+
+    <EditText
+        android:id="@+id/teamName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toLeftOf="@+id/leaguebutton"
+        android:layout_toStartOf="@+id/lockerbutton"
+        android:text="팀명"
+        android:ems="13" />
+
+
+    <EditText
+        android:id="@+id/teamRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamName"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/leaguebutton"
+        android:layout_toStartOf="@+id/lockerbutton"
+        android:ems="13"
+        android:text="팀 지역" />
+
+    <Switch
+        android:id="@+id/submitcheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="등록여부"
+        android:layout_below="@+id/teamRegion"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="37dp"
+        android:layout_toLeftOf="@+id/leaguebutton"
+        android:layout_toStartOf="@+id/lockerbutton"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="팀 개설하는 계정으로 팀장 권한이 부여됩니다."
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/submitcheck"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신청"
+        android:layout_toLeftOf="@+id/leaguebutton"
+        android:layout_below="@+id/info"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:layout_below="@+id/info"
+        android:layout_toRightOf="@+id/submit"/>
+
+    //--하단메뉴입니다.--
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/homeicon"
+            android:text="홈"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/teambutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/homebutton"
+            android:layout_alignBottom="@+id/homebutton"
+            android:layout_toEndOf="@+id/homebutton"
+            android:layout_toRightOf="@+id/homebutton"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/teamicon"
+            android:text="팀"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/lockerbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/leaguebutton"
+            android:layout_alignBottom="@+id/leaguebutton"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/rockericon"
+            android:text="락커룸"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/leaguebutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/lockerbutton"
+            android:layout_toStartOf="@+id/lockerbutton"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/leagueicon"
+            android:text="대회"
+            android:textSize="8pt" />
+
+</RelativeLayout>

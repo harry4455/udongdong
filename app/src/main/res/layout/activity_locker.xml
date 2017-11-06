@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jamleekim.startonc.LockerActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="라커룸액티비티입니다." />
+
+    //--하단메뉴입니다.--
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00ff0000"
+        android:drawableTop="@drawable/homeicon"
+        android:text="홈"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/teambutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/homebutton"
+        android:layout_alignBottom="@+id/homebutton"
+        android:layout_toEndOf="@+id/homebutton"
+        android:layout_toRightOf="@+id/homebutton"
+        android:background="#00ff0000"
+        android:drawableTop="@drawable/teamicon"
+        android:text="팀"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/lockerbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/leaguebutton"
+        android:layout_alignBottom="@+id/leaguebutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#00ff0000"
+        android:drawableTop="@drawable/rockericon"
+        android:text="락커룸"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/leaguebutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/lockerbutton"
+        android:layout_toStartOf="@+id/lockerbutton"
+        android:background="#00ff0000"
+        android:drawableTop="@drawable/leagueicon"
+        android:text="대회"
+        android:textSize="8pt" />
+</RelativeLayout>
