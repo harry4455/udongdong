@@ -45,8 +45,7 @@
         android:layout_marginTop="17dp"
         android:ems="10"
         android:hint="이메일"
-        android:inputType="textPersonName"
-        android:text="이메일" />
+        android:inputType="textPersonName"/>
 
     <EditText
         android:id="@+id/editText_password"
@@ -58,8 +57,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="비밀번호"
-        android:inputType="textPersonName"
-        android:text="비밀번호" />
+        android:inputType="textPersonName" />
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
